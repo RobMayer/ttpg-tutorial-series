@@ -1,0 +1,10 @@
+{
+  "name": "TTPG Tutorial Series",
+  "slug": "ttpg-tutorial-series",
+  "version": "0.0.1",
+  "transpile": true,
+  "guid": {
+    "dev": "86733B9974DA46038BC9FD696467240D",
+    "prd": "3AC7EDF4E644438898120B8011DBC88C"
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "lib": ["ES2023", "DOM"],
+        "module": "commonjs",
+        "strict": true,
+        "outDir": "./build",
+        "useUnknownInCatchVariables": false,
+        "jsx": "react",
+        "jsxFactory": "jsxInTTPG",
+        "jsxFragmentFactory": "jsxFrag",
+        "rootDir": "./src",
+        "skipLibCheck": true
+    },
+    "include": ["./src/**/*.ts", "./src/**/*.tsx"]
+}
