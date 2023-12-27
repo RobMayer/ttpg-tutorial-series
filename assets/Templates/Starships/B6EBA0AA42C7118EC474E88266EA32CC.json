@@ -92,9 +92,9 @@
 				"Y": 0,
 				"Z": -90
 			},
-			"Texture": "token-hex-test_oc.png",
+			"Texture": "tokens/token-hex-test_oc.png",
 			"NormalMap": "",
-			"ExtraMap": "token-hex-test_om.png",
+			"ExtraMap": "tokens/token-hex-test_om.png",
 			"ExtraMap2": "",
 			"IsTransparent": false,
 			"CastShadow": true,
@@ -118,11 +118,11 @@
 			},
 			"Rotation":
 			{
-				"X": 180,
+				"X": -180,
 				"Y": -1.36604e-05,
 				"Z": 90
 			},
-			"Texture": "token-hex-test_rc.png",
+			"Texture": "tokens/token-hex-test_rc.png",
 			"NormalMap": "",
 			"ExtraMap": "",
 			"ExtraMap2": "",
