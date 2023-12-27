@@ -1,7 +1,7 @@
 {
 	"Type": "Card",
-	"GUID": "C98335F84E720D9493D46AAE86796129",
-	"Name": "Tie-2",
+	"GUID": "36350D8D439B6C22CDA8ADA5B34CC551",
+	"Name": "Tie-Pow2",
 	"Metadata": "",
 	"CollisionType": "Regular",
 	"Friction": 0.7,
@@ -56,7 +56,7 @@
 	"UsePrimaryColorForSide": false,
 	"FrontTextureOverrideExposed": false,
 	"AllowFlippedInStack": false,
-	"MirrorBack": true,
+	"MirrorBack": false,
 	"EmissiveFront": false,
 	"Model": "cards/tie-s.png",
 	"ShapeAccuracy": 10,
