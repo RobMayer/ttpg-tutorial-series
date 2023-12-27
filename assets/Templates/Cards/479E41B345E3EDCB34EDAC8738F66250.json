@@ -1,0 +1,76 @@
+{
+	"Type": "Card",
+	"GUID": "479E41B345E3EDCB34EDAC8738F66250",
+	"Name": "Deck-1",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0,
+	"Density": 0.5,
+	"SurfaceType": "Cardboard",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 51,
+		"G": 51,
+		"B": 51
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": true,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [],
+	"Collision": [],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": [],
+	"FrontTexture": "cards/card-1_o1.png",
+	"BackTexture": "cards/card-1_r.png",
+	"HiddenTexture": "cards/card-1_h.png",
+	"BackIndex": -2,
+	"HiddenIndex": -2,
+	"NumHorizontal": 1,
+	"NumVertical": 1,
+	"Width": 9,
+	"Height": 9,
+	"Thickness": 0.2,
+	"HiddenInHand": true,
+	"UsedWithCardHolders": true,
+	"CanStack": true,
+	"UsePrimaryColorForSide": false,
+	"FrontTextureOverrideExposed": false,
+	"AllowFlippedInStack": false,
+	"MirrorBack": false,
+	"EmissiveFront": true,
+	"Model": "cards/card-1_s.png",
+	"ShapeAccuracy": 10,
+	"ConvexCollision": true,
+	"Indices": [ 0 ],
+	"CardNames":
+	{
+		"1": "Ace of Clubs",
+		"0": "Ace of Diamonds"
+	},
+	"CardMetadata":
+	{
+	},
+	"CardTags":
+	{
+	}
+}
