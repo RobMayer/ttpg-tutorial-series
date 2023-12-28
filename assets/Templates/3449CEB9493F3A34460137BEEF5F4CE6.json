@@ -1,0 +1,244 @@
+{
+	"Type": "Dice",
+	"GUID": "3449CEB9493F3A34460137BEEF5F4CE6",
+	"Name": "D6 Die",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Plastic",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 103,
+		"B": 79
+	},
+	"SecondaryColor":
+	{
+		"R": 237,
+		"G": 170,
+		"B": 36
+	},
+	"Flippable": false,
+	"AutoStraighten": false,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "d6n-round_msh.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "dice/gem_c.png",
+			"NormalMap": "dice/n.png",
+			"ExtraMap": "dice/x.png",
+			"ExtraMap2": "",
+			"IsTransparent": true,
+			"Alpha": 0.87,
+			"CastShadow": false,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 0.25,
+			"Metallic": 0.83,
+			"PrimaryColor":
+			{
+				"R": 255,
+				"G": 103,
+				"B": 79
+			},
+			"SecondaryColor":
+			{
+				"R": 204,
+				"G": 234,
+				"B": 237
+			},
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "d6n-round_frc.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "dice/gem_n.png",
+			"ExtraMap": "dice/gem_x.png",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 0.02,
+			"Metallic": 0.68,
+			"PrimaryColor":
+			{
+				"R": 255,
+				"G": 140,
+				"B": 115
+			},
+			"SecondaryColor":
+			{
+				"R": 205,
+				"G": 81,
+				"B": 41
+			},
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "d6n-round_inv.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "dice/gem_n.png",
+			"ExtraMap": "dice/gem_x.png",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 0.02,
+			"Metallic": 1,
+			"PrimaryColor":
+			{
+				"R": 255,
+				"G": 122,
+				"B": 136
+			},
+			"SecondaryColor":
+			{
+				"R": 224,
+				"G": 160,
+				"B": 42
+			},
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [
+		{
+			"Model": "d6n_col.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		}
+	],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": [],
+	"Faces": [
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": 1,
+			"Name": "Hit",
+			"Metadata": ""
+		},
+		{
+			"X": 0,
+			"Y": -1,
+			"Z": 0,
+			"Name": "Miss",
+			"Metadata": ""
+		},
+		{
+			"X": 1,
+			"Y": 0,
+			"Z": 0,
+			"Name": "Miss",
+			"Metadata": ""
+		},
+		{
+			"X": -1,
+			"Y": 0,
+			"Z": 0,
+			"Name": "Miss",
+			"Metadata": ""
+		},
+		{
+			"X": 0,
+			"Y": 1,
+			"Z": 0,
+			"Name": "Hit",
+			"Metadata": ""
+		},
+		{
+			"X": 0,
+			"Y": 0,
+			"Z": -1,
+			"Name": "Critical Hit",
+			"Metadata": ""
+		}
+	]
+}
