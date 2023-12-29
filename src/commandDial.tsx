@@ -1,21 +1,7 @@
-import {
-    Button,
-    Color,
-    GameObject,
-    ImageWidget,
-    Player,
-    PlayerPermission,
-    Rotator,
-    UIElement,
-    UIPresentationStyle,
-    UIZoomVisibility,
-    Vector,
-    WidgetSwitcher,
-    refObject,
-    world,
-} from "@tabletop-playground/api";
+import { Button, Color, GameObject, ImageWidget, Player, PlayerPermission, Rotator, UIElement, UIZoomVisibility, Vector, WidgetSwitcher, refObject, world } from "@tabletop-playground/api";
 import { jsxInTTPG, render, useRef } from "jsx-in-ttpg";
-import { Storage } from "ttpg-common-lib";
+import { Storage, CrossRef } from "ttpg-common-lib";
+import { DialOptions } from "./types";
 
 const WHITE = new Color(1, 1, 1, 1);
 
@@ -110,7 +96,13 @@ type DialStore = {
         obj.updateUI(privateUI);
     };
 
-    (obj as any).setDialPermissions = setDialPermissions;
+    const unregister = CrossRef.register<DialOptions>("@ThatRobHuman/dialOptions", obj.getId(), {
+        setDialPermissions,
+    });
+
+    obj.onDestroyed.add(() => {
+        unregister();
+    });
 
     setDialPermissions(obj.getOwningPlayerSlot());
 
