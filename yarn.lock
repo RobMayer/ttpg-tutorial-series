@@ -791,6 +791,13 @@ to-regex-range@^5.0.1:
   dependencies:
     is-number "^7.0.0"
 
+ttpg-common-lib@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.yarnpkg.com/ttpg-common-lib/-/ttpg-common-lib-0.0.8.tgz#4b5057acf7f4f2ba065059dc2e5676e269187dfa"
+  integrity sha512-pTAQ2K+QhuxCcPyxfyp9SrqwHbXSI4FtVJAbVwsOJE5LN0NUHaU3bATdUuge5fTH6D9BYrnfn6cgvNy/Mb8wKg==
+  dependencies:
+    "@tabletop-playground/api" "^0.39.0"
+
 ttpg-scripts@^1.4.5:
   version "1.4.5"
   resolved "https://registry.yarnpkg.com/ttpg-scripts/-/ttpg-scripts-1.4.5.tgz#572093d8e2e66c27713c10dd3c7783bd80707720"
