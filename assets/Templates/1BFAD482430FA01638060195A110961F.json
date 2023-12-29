@@ -1,0 +1,241 @@
+{
+	"Type": "Multistate Object",
+	"GUID": "1BFAD482430FA01638060195A110961F",
+	"Name": "Isabel Sandoval",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Plastic",
+	"Roughness": 1,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 0,
+		"G": 0,
+		"B": 0
+	},
+	"Flippable": false,
+	"AutoStraighten": true,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "",
+	"Models": [
+		{
+			"Model": "standbase.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "standbase.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0.125
+			},
+			"Scale":
+			{
+				"X": 0.875,
+				"Y": 0.875,
+				"Z": 0.875
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Texture": "",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": false,
+			"Roughness": 1,
+			"Metallic": 0,
+			"PrimaryColor":
+			{
+				"R": 51,
+				"G": 51,
+				"B": 51
+			},
+			"SecondaryColor":
+			{
+				"R": 0,
+				"G": 0,
+				"B": 0
+			},
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [
+		{
+			"Model": "standbase.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		},
+		{
+			"Model": "standbase.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0.125
+			},
+			"Scale":
+			{
+				"X": 0.875,
+				"Y": 0.875,
+				"Z": 0.875
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Type": "Convex"
+		}
+	],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 1
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": [],
+	"MultistateModels": [
+		{
+			"Model": "Rounded",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 2.25
+			},
+			"Scale":
+			{
+				"X": 3.5,
+				"Y": 2.5,
+				"Z": 0.125
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 90,
+				"Z": 0
+			},
+			"Texture": "multistate/isabel.png",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic",
+			"UseCardModel": true,
+			"NumHorizontal": 2,
+			"NumVertical": 1,
+			"Indices": [ 0, 0, 0, 1, 1 ],
+			"BackTexture": "",
+			"BackIndex": -1,
+			"Emissive": true
+		},
+		{
+			"Model": "multistate/rank_s.png",
+			"ShapeAccuracy": 10,
+			"Offset":
+			{
+				"X": 0,
+				"Y": 1,
+				"Z": 4.1
+			},
+			"Scale":
+			{
+				"X": 0.625,
+				"Y": 0.625,
+				"Z": 0.2
+			},
+			"Rotation":
+			{
+				"X": -180,
+				"Y": 90,
+				"Z": 0
+			},
+			"Texture": "multistate/ranks.png",
+			"NormalMap": "",
+			"ExtraMap": "",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic",
+			"UseCardModel": true,
+			"NumHorizontal": 2,
+			"NumVertical": 2,
+			"Indices": [ 0, 1, 2, 1, 2 ],
+			"BackTexture": "",
+			"BackIndex": 0,
+			"Emissive": true
+		}
+	],
+	"Circular": false
+}
