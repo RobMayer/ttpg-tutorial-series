@@ -1,0 +1,137 @@
+{
+	"Type": "Cardboard Figure",
+	"GUID": "9751FAE84DE71F414B1E27B5847B8562",
+	"Name": "Luke",
+	"Metadata": "",
+	"CollisionType": "Regular",
+	"Friction": 0.7,
+	"Restitution": 0.3,
+	"Density": 1,
+	"SurfaceType": "Plastic",
+	"Roughness": 0.3,
+	"Metallic": 0,
+	"PrimaryColor":
+	{
+		"R": 255,
+		"G": 255,
+		"B": 255
+	},
+	"SecondaryColor":
+	{
+		"R": 255,
+		"G": 44,
+		"B": 52
+	},
+	"Flippable": false,
+	"AutoStraighten": true,
+	"ShouldSnap": true,
+	"ScriptName": "",
+	"Blueprint": "Blueprints/Figure.json",
+	"Models": [
+		{
+			"Model": "token-hex-test.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1.5,
+				"Y": 1.5,
+				"Z": 1.5
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": -90
+			},
+			"Texture": "tokens/token-hex-test_oc.png",
+			"NormalMap": "",
+			"ExtraMap": "tokens/token-hex-test_om.png",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		},
+		{
+			"Model": "token-hex-test.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1.5,
+				"Y": 1.5,
+				"Z": 1.5
+			},
+			"Rotation":
+			{
+				"X": 180,
+				"Y": 0,
+				"Z": 90
+			},
+			"Texture": "tokens/token-hex-test_oc.png",
+			"NormalMap": "",
+			"ExtraMap": "tokens/token-hex-test_om.png",
+			"ExtraMap2": "",
+			"IsTransparent": false,
+			"CastShadow": true,
+			"IsTwoSided": false,
+			"UseOverrides": true,
+			"SurfaceType": "Plastic"
+		}
+	],
+	"Collision": [
+		{
+			"Model": "token-hex-test_COL.obj",
+			"Offset":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Scale":
+			{
+				"X": 1.5,
+				"Y": 1.5,
+				"Z": 1.5
+			},
+			"Rotation":
+			{
+				"X": 0,
+				"Y": 0,
+				"Z": -90
+			},
+			"Type": "Convex"
+		}
+	],
+	"Lights": [],
+	"SnapPointsGlobal": false,
+	"SnapPoints": [],
+	"ZoomViewDirection":
+	{
+		"X": 0,
+		"Y": 0,
+		"Z": 0
+	},
+	"GroundAccessibility": "Nothing",
+	"Tags": [],
+	"FrontTexture": "standee/luke_c.png",
+	"BackTexture": "",
+	"FrontExtraMap": "standee/luke_m.png",
+	"BackExtraMap": "",
+	"FigureWidth": 4,
+	"FigureHeight": 4,
+	"FigureZOffset": 0,
+	"UseAlpha": true,
+	"Collide": false,
+	"ShapeAccuracy": 10
+}
