@@ -506,10 +506,10 @@ isexe@^2.0.0:
   resolved "https://registry.yarnpkg.com/isexe/-/isexe-2.0.0.tgz#e8fbf374dc556ff8947a10dcb0572d633f2cfa10"
   integrity sha512-RHxMLp9lnKHGHRng9QFhRCMbYAcVpn69smSGcq3f36xjgVVWThj4qqLbTLlq7Ssj8B+fIQ1EuCEGI2lKsyQeIw==
 
-jsx-in-ttpg@^2.1.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/jsx-in-ttpg/-/jsx-in-ttpg-2.2.1.tgz#a3f3e2bb29ffb0dc2cef582be97c1a21d4018268"
-  integrity sha512-3rasaVuvmkllkLaXMv2b+A5yBgDHsbBEFvTfmhIFEXCdGYAAK6MZ/rvmsE9F5Yks89Brx7DF1ewfCh7Fq+q07g==
+jsx-in-ttpg@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/jsx-in-ttpg/-/jsx-in-ttpg-2.2.2.tgz#b55f832f837570e80e8d3c21b8db0f3473e0541f"
+  integrity sha512-FsiW7U9xczA9uPvFJB3i2ylmTPNw3L0cxVWC6JCEKzmXpuY+mn7aESNOqstbS/g2NfSnkepIpsjdXJ2DwLfU9w==
 
 klaw-sync@^6.0.0:
   version "6.0.0"
@@ -797,6 +797,11 @@ ttpg-common-lib@^0.0.8:
   integrity sha512-pTAQ2K+QhuxCcPyxfyp9SrqwHbXSI4FtVJAbVwsOJE5LN0NUHaU3bATdUuge5fTH6D9BYrnfn6cgvNy/Mb8wKg==
   dependencies:
     "@tabletop-playground/api" "^0.39.0"
+
+ttpg-pdf-controls@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ttpg-pdf-controls/-/ttpg-pdf-controls-1.0.0.tgz#d7ce0bddec42628a1222eb07b2bcf8e3f60fdf2f"
+  integrity sha512-Es4sKX/3bkCSC6HueAv5agowTb/pdC5rMm5dybpKDRXQpEV4QgFwRHzZne9g+pEmrqpMKbiMvPghOBI9m1neow==
 
 ttpg-scripts@^1.4.5:
   version "1.4.5"
