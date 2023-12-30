@@ -16,12 +16,12 @@
     "author": "",
     "dependencies": {
         "jsx-in-ttpg": "^2.2.2",
-        "ttpg-common-lib": "^0.0.8",
+        "ttpg-common-lib": "^0.0.9",
         "ttpg-pdf-controls": "^1.0.1"
     },
     "devDependencies": {
         "@tabletop-playground/api": "^0.39.0",
-        "ttpg-scripts": "^1.4.5",
+        "ttpg-scripts": "^1.4.6",
         "typescript": "^5.3.3"
     }
 }
