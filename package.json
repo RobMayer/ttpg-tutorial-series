@@ -17,7 +17,7 @@
     "dependencies": {
         "jsx-in-ttpg": "^2.2.2",
         "ttpg-common-lib": "^0.0.8",
-        "ttpg-pdf-controls": "^1.0.0"
+        "ttpg-pdf-controls": "^1.0.1"
     },
     "devDependencies": {
         "@tabletop-playground/api": "^0.39.0",
