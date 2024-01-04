@@ -22,10 +22,10 @@
 		"G": 67,
 		"B": 55
 	},
-	"Flippable": false,
+	"Flippable": true,
 	"AutoStraighten": true,
 	"ShouldSnap": true,
-	"ScriptName": "",
+	"ScriptName": "enterprise.js",
 	"Blueprint": "",
 	"Models": [
 		{
