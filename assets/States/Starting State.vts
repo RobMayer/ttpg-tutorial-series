@@ -1,0 +1,677 @@
+{
+	"saveStateVersion": "1.1",
+	"gameState":
+	{
+		"measureUnit": 2.5399999618530273,
+		"rotationStep": 60,
+		"notes": "You can enter notes for the game here. They will be visible to all players and are stored when the game is saved.\n\nYou can use [color=#ff0000]colors[/color], [b]bold[/b] or [i]italic[/i] text, [size=9]different[/size] [size=16]sizes[/size], and [color=#00ff00][size=8][b][i]combine text styles.[/color][/size][/b][/i]",
+		"turnInfo":
+		{
+		},
+		"slotTeams": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+		"globalScriptPackage": "00000000000000000000000000000000",
+		"globalScriptName": "",
+		"backgroundTexture":
+		{
+			"resourceName": "",
+			"packageGuid": "00000000000000000000000000000000"
+		},
+		"phases": [],
+		"spectatorsSeeEverything": false,
+		"persistentData": "",
+		"persistentKeyData":
+		{
+		},
+		"permissions":
+		{
+			"delete": -1,
+			"objectLibrary": -1,
+			"copyPaste": -1,
+			"cardPeek": -1,
+			"cardExplorer": -1,
+			"containerExplorer": -1,
+			"changeOwner": -1,
+			"changeTeam": -1,
+			"editZones": -1,
+			"draw": -1,
+			"ground": -1,
+			"throw": -1,
+			"editLabels": -1,
+			"saveGame": -1,
+			"spectators": -1
+		},
+		"physicsLocked": false,
+		"measureAngles": "None",
+		"alwaysSnap": false,
+		"liftOverRegular": true,
+		"gravityMultiplier": 1,
+		"slotIds": [
+			"00023a2f78324da6811f72185c03d035",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			"",
+			""
+		],
+		"mapName": "HDRI_Station",
+		"currentTurn": 0,
+		"bCanBeDamaged": false
+	},
+	"requiredPackages": [
+		{
+			"name": "TTPG Tutorial Series (Dev)",
+			"guid": "86733B9974DA46038BC9FD696467240D"
+		},
+		{
+			"name": "General",
+			"guid": "D74C7D5D6745CD565913DAA5FB3E9C93"
+		}
+	],
+	"storedCameraSetups": [ false, false, false, false, false, false, false, false, false, false ],
+	"playerCameraSetups": [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ],
+	"playerSlotNames": [
+		"1",
+		"2",
+		"3",
+		"4",
+		"5",
+		"6",
+		"7",
+		"8",
+		"9",
+		"10",
+		"11",
+		"12",
+		"13",
+		"14",
+		"15",
+		"16",
+		"17",
+		"18",
+		"19",
+		"20"
+	],
+	"customPlayerColors": [ false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false ],
+	"lighting":
+	{
+		"intensity": 1,
+		"specular": 1,
+		"altitude": 90,
+		"azimuth": 0,
+		"color":
+		{
+			"r": 255,
+			"g": 255,
+			"b": 255
+		}
+	},
+	"grid":
+	{
+		"type": 0,
+		"snapType": 0,
+		"visibility": 0,
+		"size":
+		{
+			"x": 5.0799999237060547,
+			"y": 5.0799999237060547
+		},
+		"offset":
+		{
+			"x": 0,
+			"y": 0
+		},
+		"rotation": 0,
+		"color":
+		{
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 179
+		},
+		"thickLines": false
+	},
+	"objects": [
+		{
+			"objectType": "Bag",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 7.9894834925653413e-07,
+					"y": -7.1525568046126864e-07,
+					"z": 5.7145233640573667e-13,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 65.759254455566406,
+					"y": -24.781373977661133,
+					"z": 87.39971923828125
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"bagType": "Random",
+			"maxItems": 100,
+			"takeRotation": "Zero",
+			"lazyLoad": false,
+			"containerTags": [],
+			"itemsJson": [],
+			"primaryColor":
+			{
+				"b": 36,
+				"g": 255,
+				"r": 36,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 126,
+				"g": 122,
+				"r": 124,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "4D07FF24423DA26FC8F2429ECF1AE085",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "86733B9974DA46038BC9FD696467240D",
+			"objectScriptName": "playerCrate.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "ppu",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "Bag",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -4.2326036009399104e-08,
+					"y": -6.4386580334030441e-07,
+					"z": 0.49999850988388062,
+					"w": 0.86602628231048584
+				},
+				"translation":
+				{
+					"x": -49.844680786132812,
+					"y": -48.167438507080078,
+					"z": 87.399787902832031
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"bagType": "Random",
+			"maxItems": 100,
+			"takeRotation": "Zero",
+			"lazyLoad": false,
+			"containerTags": [],
+			"itemsJson": [],
+			"primaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 146,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 126,
+				"g": 122,
+				"r": 124,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "4D07FF24423DA26FC8F2429ECF1AE085",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "86733B9974DA46038BC9FD696467240D",
+			"objectScriptName": "playerCrate.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "jaa",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 2,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "Bag",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 1.9973738289991161e-06,
+					"y": 3.4595461784192594e-06,
+					"z": -0.5000007152557373,
+					"w": 0.86602497100830078
+				},
+				"translation":
+				{
+					"x": -14.975130081176758,
+					"y": 69.485557556152344,
+					"z": 87.399757385253906
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"bagType": "Random",
+			"maxItems": 100,
+			"takeRotation": "Zero",
+			"lazyLoad": false,
+			"containerTags": [],
+			"itemsJson": [],
+			"primaryColor":
+			{
+				"b": 219,
+				"g": 109,
+				"r": 0,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 126,
+				"g": 122,
+				"r": 124,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "4D07FF24423DA26FC8F2429ECF1AE085",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "86733B9974DA46038BC9FD696467240D",
+			"objectScriptName": "playerCrate.js",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "a8z",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 0,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "CardHolder",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 1.3315990088358376e-07,
+					"y": 2.3063545029344823e-07,
+					"z": -0.50000691413879395,
+					"w": 0.86602139472961426
+				},
+				"translation":
+				{
+					"x": -43.624637603759766,
+					"y": 57.329143524169922,
+					"z": 87.399765014648438
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"canOnlyOwnerTakeCards": true,
+			"showCardBacks": false,
+			"showCardFronts": false,
+			"cardsJson": [
+				"{\"objectType\":\"Card\",\"transform\":{\"rotation\":{\"x\":-0.86602133512496948,\"y\":0.5000070333480835,\"z\":2.245291170765995e-07,\"w\":2.1068528894829797e-06},\"translation\":{\"x\":-43.624637603759766,\"y\":57.329143524169922,\"z\":88.399765014648438},\"scale3D\":{\"x\":1,\"y\":1,\"z\":1}},\"simulatingPhysics\":true,\"atlasIndex\":1,\"frontTextureOverride\":\"\",\"inHand\":true,\"stackSerialization\":[],\"primaryColor\":{\"b\":51,\"g\":51,\"r\":51,\"a\":255},\"secondaryColor\":{\"b\":0,\"g\":0,\"r\":0,\"a\":255},\"metallic\":0,\"roughness\":1,\"friction\":0.69999998807907104,\"restitution\":0,\"density\":0.5,\"surfaceType\":\"SurfaceType4\",\"objectName\":\"\",\"objectDescription\":\"\",\"collisionType\":\"CB_Regular\",\"templateId\":\"C9925CB6458641CE421A9DBE6E529746\",\"shouldSnap\":true,\"previousPosition\":{\"x\":0,\"y\":0,\"z\":0},\"objectScriptPackage\":\"00000000000000000000000000000000\",\"objectScriptName\":\"\",\"persistentData\":\"\",\"persistentKeyData\":{},\"uniqueId\":\"x4h\",\"drawingLines\":[],\"objectTags\":[],\"objectGroupId\":-1,\"ownerIndex\":-1,\"lightsOn\":true,\"bCanBeDamaged\":false}"
+			],
+			"primaryColor":
+			{
+				"b": 219,
+				"g": 109,
+				"r": 0,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "33C0D99340D387F9B08769A83213307D",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "00000000000000000000000000000000",
+			"objectScriptName": "",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "gmq",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 0,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "CardHolder",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 7.6673359217238612e-07,
+					"y": -1.897395577543648e-06,
+					"z": 0.50000607967376709,
+					"w": 0.86602187156677246
+				},
+				"translation":
+				{
+					"x": -38.033271789550781,
+					"y": -60.071956634521484,
+					"z": 87.399696350097656
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"canOnlyOwnerTakeCards": true,
+			"showCardBacks": false,
+			"showCardFronts": false,
+			"cardsJson": [
+				"{\"objectType\":\"Card\",\"transform\":{\"rotation\":{\"x\":0.86602044105529785,\"y\":0.49999314546585083,\"z\":0.0019648331217467785,\"w\":0.0033979169093072414},\"translation\":{\"x\":-38.033275604248047,\"y\":-60.07196044921875,\"z\":88.399696350097656},\"scale3D\":{\"x\":1,\"y\":1,\"z\":1}},\"simulatingPhysics\":true,\"atlasIndex\":1,\"frontTextureOverride\":\"\",\"inHand\":true,\"stackSerialization\":[],\"primaryColor\":{\"b\":51,\"g\":51,\"r\":51,\"a\":255},\"secondaryColor\":{\"b\":0,\"g\":0,\"r\":0,\"a\":255},\"metallic\":0,\"roughness\":1,\"friction\":0.69999998807907104,\"restitution\":0,\"density\":0.5,\"surfaceType\":\"SurfaceType4\",\"objectName\":\"\",\"objectDescription\":\"\",\"collisionType\":\"CB_Regular\",\"templateId\":\"C9925CB6458641CE421A9DBE6E529746\",\"shouldSnap\":true,\"previousPosition\":{\"x\":0,\"y\":0,\"z\":0},\"objectScriptPackage\":\"00000000000000000000000000000000\",\"objectScriptName\":\"\",\"persistentData\":\"\",\"persistentKeyData\":{},\"uniqueId\":\"o1x\",\"drawingLines\":[],\"objectTags\":[],\"objectGroupId\":-1,\"ownerIndex\":-1,\"lightsOn\":true,\"bCanBeDamaged\":false}"
+			],
+			"primaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 146,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "33C0D99340D387F9B08769A83213307D",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "00000000000000000000000000000000",
+			"objectScriptName": "",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "t40",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 2,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "CardHolder",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": -2.7984600592390052e-07,
+					"y": -1.1920928244535389e-07,
+					"z": -3.3360240161680113e-14,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 72.054397583007812,
+					"y": -6.2474203109741211,
+					"z": 87.399703979492188
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"canOnlyOwnerTakeCards": true,
+			"showCardBacks": false,
+			"showCardFronts": false,
+			"cardsJson": [
+				"{\"objectType\":\"Card\",\"transform\":{\"rotation\":{\"x\":0.9999922513961792,\"y\":1.0426711014588363e-05,\"z\":2.7935826096836536e-07,\"w\":0.0039262175559997559},\"translation\":{\"x\":72.054397583007812,\"y\":-6.2474198341369629,\"z\":88.399703979492188},\"scale3D\":{\"x\":1,\"y\":1,\"z\":1}},\"simulatingPhysics\":true,\"atlasIndex\":1,\"frontTextureOverride\":\"\",\"inHand\":true,\"stackSerialization\":[],\"primaryColor\":{\"b\":51,\"g\":51,\"r\":51,\"a\":255},\"secondaryColor\":{\"b\":0,\"g\":0,\"r\":0,\"a\":255},\"metallic\":0,\"roughness\":1,\"friction\":0.69999998807907104,\"restitution\":0,\"density\":0.5,\"surfaceType\":\"SurfaceType4\",\"objectName\":\"\",\"objectDescription\":\"\",\"collisionType\":\"CB_Regular\",\"templateId\":\"C9925CB6458641CE421A9DBE6E529746\",\"shouldSnap\":true,\"previousPosition\":{\"x\":0,\"y\":0,\"z\":0},\"objectScriptPackage\":\"00000000000000000000000000000000\",\"objectScriptName\":\"\",\"persistentData\":\"\",\"persistentKeyData\":{},\"uniqueId\":\"gfa\",\"drawingLines\":[],\"objectTags\":[],\"objectGroupId\":-1,\"ownerIndex\":-1,\"lightsOn\":true,\"bCanBeDamaged\":false}"
+			],
+			"primaryColor":
+			{
+				"b": 36,
+				"g": 255,
+				"r": 36,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Regular",
+			"templateId": "33C0D99340D387F9B08769A83213307D",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "00000000000000000000000000000000",
+			"objectScriptName": "",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "dmv",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": 1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		},
+		{
+			"objectType": "Table",
+			"transform":
+			{
+				"rotation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0,
+					"w": 1
+				},
+				"translation":
+				{
+					"x": 0,
+					"y": 0,
+					"z": 0
+				},
+				"scale3D":
+				{
+					"x": 1,
+					"y": 1,
+					"z": 1
+				}
+			},
+			"simulatingPhysics": true,
+			"primaryColor":
+			{
+				"b": 255,
+				"g": 255,
+				"r": 255,
+				"a": 255
+			},
+			"secondaryColor":
+			{
+				"b": 0,
+				"g": 0,
+				"r": 0,
+				"a": 255
+			},
+			"metallic": 0,
+			"roughness": 1,
+			"friction": 0.69999998807907104,
+			"restitution": 0.30000001192092896,
+			"density": 1,
+			"surfaceType": "SurfaceType1",
+			"objectName": "",
+			"objectDescription": "",
+			"collisionType": "CB_Static",
+			"templateId": "6EE4C2AF410EBBD579AE2AB282460022",
+			"shouldSnap": true,
+			"previousPosition":
+			{
+				"x": 0,
+				"y": 0,
+				"z": 0
+			},
+			"objectScriptPackage": "00000000000000000000000000000000",
+			"objectScriptName": "",
+			"persistentData": "",
+			"persistentKeyData":
+			{
+			},
+			"uniqueId": "vti",
+			"drawingLines": [],
+			"objectTags": [],
+			"objectGroupId": -1,
+			"ownerIndex": -1,
+			"lightsOn": true,
+			"bCanBeDamaged": false
+		}
+	],
+	"zones": [],
+	"labels": []
+}
